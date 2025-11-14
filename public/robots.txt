@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /thank-you
+
+# Sitemap (Update with your actual domain after deployment)
+# Example: Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: /sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
