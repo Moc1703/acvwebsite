@@ -2,8 +2,8 @@
 
 ## ✅ Status
 
-- ✅ File sudah di-push ke GitHub: `https://github.com/Moc1703/acvwebsite.git`
-- ✅ Siap untuk pull di server!
+-   ✅ File sudah di-push ke GitHub: `https://github.com/Moc1703/acvwebsite.git`
+-   ✅ Siap untuk pull di server!
 
 ---
 
@@ -17,6 +17,7 @@ git clone https://github.com/Moc1703/acvwebsite.git .
 ```
 
 **Atau clone ke folder baru dulu:**
+
 ```bash
 cd /home/ayap4485
 git clone https://github.com/Moc1703/acvwebsite.git public_html_new
@@ -44,6 +45,7 @@ git checkout -b main origin/main
 ```
 
 **Atau jika sudah ada git:**
+
 ```bash
 cd /home/ayap4485/public_html
 git pull origin main
@@ -60,6 +62,7 @@ git pull origin main
 3. **`bootstrap/cache/`** - Cache files
 
 **Cara backup:**
+
 ```bash
 cd /home/ayap4485/public_html
 cp .env .env.backup
@@ -105,11 +108,11 @@ php artisan migrate --force
 
 ## ✅ Checklist
 
-- [ ] File sudah di-pull dari GitHub
-- [ ] `.env` sudah di-setup (tidak ter-overwrite)
-- [ ] Permission sudah di-set (`755` untuk folder, `644` untuk file)
-- [ ] Cache sudah di-clear
-- [ ] Website sudah di-test
+-   [ ] File sudah di-pull dari GitHub
+-   [ ] `.env` sudah di-setup (tidak ter-overwrite)
+-   [ ] Permission sudah di-set (`755` untuk folder, `644` untuk file)
+-   [ ] Cache sudah di-clear
+-   [ ] Website sudah di-test
 
 ---
 
@@ -118,6 +121,7 @@ php artisan migrate --force
 ### Error: "Permission denied"
 
 **Solusi:**
+
 ```bash
 chmod -R 755 /home/ayap4485/public_html
 chmod -R 644 /home/ayap4485/public_html/*.php
@@ -134,6 +138,7 @@ chmod -R 644 /home/ayap4485/public_html/*.php
 ### File `.env` Ter-overwrite
 
 **Solusi:**
+
 ```bash
 # Restore dari backup
 cp .env.backup .env
