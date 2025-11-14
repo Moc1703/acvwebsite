@@ -152,4 +152,3 @@ try {
 echo "<br><strong>✅ Done!</strong><br>";
 echo "<strong>⚠️ IMPORTANT: Delete this file (create-controller.php) for security!</strong><br>";
 echo "<br>Now try accessing: <a href='/'>https://ayathacreativeventures.com</a>";
-
